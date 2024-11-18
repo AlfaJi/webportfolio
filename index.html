@@ -16,33 +16,29 @@
 <body>
     <header id="title" class="gradient-background mx-sm-0">
         <div class="container" >
-            <div class="row d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <div class="navbar row d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                 <a href="#landing" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-decoration-none col-lg-6">
                   <h4 id="name">Al-Fahadz Sadji</h4>
                 </a>
       
-                <ul class="nav col-lg-6 col-md-12 d-flex justify-content-end d-grid align-items-center text-small p-3 m-md-0 d-md-flex justify-content-md-center" >
+                <ul class="nav col-12 col-md-auto mb-2 d-flex justify-content-center mb-md-0 d-grid align-items-center text-small p-2 m-md-0 d-md-flex justify-content-md-center " >
                   <li>
-                    <a href="#landing" class="nav-link text-secondary">
-                      <svg class="bi mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg>
+                    <a href="#landing" class="nav-link text-secondary px-3 px-sm-2">
                       Home
                     </a>
                   </li>
                   <li>
-                    <a href="#projects" class="nav-link text-dark">
-                      <svg class="bi mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg>
+                    <a href="#projects" class="nav-link text-dark px-4">
                       Projects
                     </a>
                   </li>
                   <li>
-                    <a href="#contact" class="nav-link text-dark">
-                      <svg class="bi mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
+                    <a href="#contact" class="nav-link text-dark px-4">
                       Contact
                     </a>
                   </li>
                   <li>
-                    <a href="#tools" class="nav-link text-dark">
-                      <svg class="bi mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                    <a href="#tools" class="nav-link text-dark px-4">
                       Tools
                     </a>
                 </li>
@@ -51,9 +47,9 @@
           </div>
       </nav>
         <div class="container col-xxl-8 px-4 pt-5">
-          <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
-            <div class="col-10 col-sm-0  col-lg-6">
-              <img src="images/my_picture.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200"loading="lazy">
+          <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 mt-sm-0">
+            <div class="col-10 col-sm-0 col-lg-6 d-flex mt-0">
+              <img src="images/my_picture.png" class="d-sm-block align-items-sm-center mx-lg-auto img-fluid" alt="Bootstrap Themes" height="200"loading="lazy">
             </div>
             <div class="col-lg-6" id="landing">
               <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Full Stack Web Developer</h1>
@@ -166,8 +162,8 @@
         </div>            
      </section>
      <footer id="contact">
-            <div id="contact" class="container-flex mx-5 d-flex justify-content-center align-items-center">
-                <div class="row g-0 justify-content-center">
+            <div id="contact" class="container-flex mx-5 d-flex flex-wrap justify-content-center align-items-center">
+                <div class="row g-0 d-flex justify-content-center">
                   <div class="col-md-8 col-sm-12">
                     <div class="card-body">
                       <h2 id="connect">Connect with me!</h2>
@@ -176,16 +172,16 @@
                         <div class="label">
                             <label for="fname">Name</label>
                         </div>
-                            <input type="text" id="fname" name="fname" value="John Doe">
+                            <input class="inputtext" type="text" id="fname" name="fname" value="John Doe">
                         <div class="label">
                             <label for="lname">Email Address</label>
                         </div>
-                            <input type="email" id="lname" name="lname" value="john.doe@mail.com">
+                            <input class="inputtext" type="email" id="lname" name="lname" value="john.doe@mail.com">
                         <div class="label">
                             <label for="text">Message</label>
                         </div>
 
-                        <textarea id="story" name="story" rows="5" cols="33"></textarea>
+                        <textarea class="inputtext" id="story" name="story" rows="5" cols="33"></textarea>
                         <a href="#myModal4" role="button" class="btn btn-lg btn-primary" data-bs-toggle="modal">Submit</a>
 
                         <div id="myModal4" class="modal fade" tabindex="-1">
